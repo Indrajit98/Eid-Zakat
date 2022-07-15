@@ -1,0 +1,142 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing:0;
+}
+.row{
+    width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+section{
+    padding: 80px;
+}
+header{
+    background-image:linear-gradient(to left ,rgba(175, 175, 175, 0),rgba(0, 0, 0, 0.877)), url(image/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: top;
+    color: #ffff;
+    
+}
+.head-cantainer{
+    margin-left: 200px;
+}
+h1{
+    font-size: 55px;
+    padding-top: 150px;
+    position: relative;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+}
+h2{
+    font-size:45px ;
+}
+h3{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 20px;
+}
+header p{
+    color: #ffffff;
+}
+p{
+    font-size:18px ;
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+}
+.common-btn{
+    text-decoration: none;
+    background: #EF233C;
+    font-size: 20px;
+    font-family: 'Inter';
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    color: #ffff;
+    border: 1px solid #EF233C;
+    
+}
+.common-btn:hover{
+    background: #ffff;
+    color: #EF233C;
+}
+.donation{
+    display: flex;
+}
+.left-column{
+    width: 45%;
+    margin-left: 9%;
+}
+.right-column{
+    width: 45%;
+    position: relative;
+    margin-left: 9%;
+}
+.background-image{
+    position: absolute;
+    height: 470px;
+}
+.font-Image{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    
+}
+.font-Image:hover{
+    cursor: pointer;
+    transform:scale(1.1,1.1) ;
+    transition-duration: 1s;
+    
+}
+.title-text{
+    text-align: center;
+}
+.card{
+    display: flex;
+    width: 45%;
+    background-color:#FEF4F5 ;
+    margin: 0 auto;
+    padding: 30px 15px;
+    margin-top: 25px;
+}
+.card img{
+    padding: 25px;
+}
+.card-row{
+    display: flex;
+    width: 80%;
+}
+.image-section img{
+    width: 350px;
+    height: 391px;
+    padding-left: 20px;
+}
+.card-box{
+    display: flex;
+}
+.card-image{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.card-image img{
+    width: 100%;
+}
+footer{
+    background-color:#0B0D17 ;
+    text-align: center;
+    padding-bottom: 40px;
+}
+footer h1{
+    font-family: lobster;
+    color: #EF233C;
+    font-size: 36px;
+    padding-top: 40px;
+}
+footer small{
+    color: #D9DBE1;
+    font-size: 14px;
+}
+
